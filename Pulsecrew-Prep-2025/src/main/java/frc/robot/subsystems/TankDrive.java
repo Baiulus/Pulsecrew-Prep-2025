@@ -83,7 +83,8 @@ public class TankDrive extends SubsystemBase {
         //         new SparkMax(15, MotorType.kBrushless) //Back
         //     };
 
-        
+        // leftMotor[2].follow(leftMotor[1].follow(leftMotor[0]));
+        // rightMotor[2].follow(rightMotor[1].follow(rightMotor[0]));
 
         tankDrive = new DifferentialDrive(
             leftMotor[0], 
